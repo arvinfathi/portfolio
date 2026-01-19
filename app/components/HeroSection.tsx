@@ -58,6 +58,8 @@ export default function HeroSection({ personalInfo, scrollTo }: HeroSectionProps
             <div className="flex flex-wrap gap-4 pt-4">
               <a 
                 href={personalInfo.cvLink}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-lg font-medium transition-all shadow-lg shadow-blue-500/25 flex items-center gap-2"
               >
                 <Download size={20} />
