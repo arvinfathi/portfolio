@@ -4,8 +4,9 @@ import "./globals.css";
 import { ThemeProvider } from "./components/ThemeProvider";
 
 export const metadata: Metadata = {
-  title: "Arvin Fathi - Software Engineer",
-  description: "Portfolio of Arvin Fathi, Software Engineer specializing in Event-Driven Architecture, microservices, and distributed systems.",
+  title: "Arvin Fathi - Full-Stack Software Engineer",
+  description: "Portfolio of Arvin Fathi, a London-based Full-Stack Software Engineer specializing in scalable microservices, Event-Driven Architecture, and enterprise integration.",
+  keywords: ["Full-Stack Software Engineer", "Python", "Django", "Rust", "TypeScript", "React", "Vue.js", "Laravel", "PostgreSQL", "AWS", "Kafka", "Terraform", "Microservices", "Event-Driven Architecture"],
 };
 
 export default function RootLayout({

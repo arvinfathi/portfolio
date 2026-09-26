@@ -1,8 +1,9 @@
 "use client";
 
 import React from 'react';
-import { Download, Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
+import { Download, Mail, ChevronDown } from 'lucide-react';
 import SocialLink from './ui/SocialLink';
+import { Github, Linkedin } from './ui/BrandIcons';
 
 interface PersonalInfo {
   name: string;
@@ -41,7 +42,7 @@ export default function HeroSection({ personalInfo, scrollTo }: HeroSectionProps
                 Hi <span className="inline-block animate-wave">👋</span>
               </h1>
               <h2 className="text-5xl md:text-7xl font-bold tracking-tight leading-tight">
-                I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-emerald-400 animate-gradient">
+                I&apos;m <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 via-purple-400 to-emerald-400 animate-gradient">
                   {personalInfo.name}
                 </span>
               </h2>
@@ -52,7 +53,7 @@ export default function HeroSection({ personalInfo, scrollTo }: HeroSectionProps
             </p>
             
             <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl leading-relaxed">
-              {personalInfo.tagline} I specialize in scalable microservices, Event-Driven Architecture, and enterprise integration. Currently optimizing network technology at CityFibre.
+              {personalInfo.tagline} I specialize in scalable microservices, Event-Driven Architecture, and enterprise integration. Currently building the carbon-footprint calculation engine at Foodsteps.
             </p>
             
             <div className="flex flex-wrap gap-4 pt-4">
@@ -75,7 +76,7 @@ export default function HeroSection({ personalInfo, scrollTo }: HeroSectionProps
 
           {/* Abstract Tech Visual */}
           <div className="flex-1 w-full min-w-0 max-w-full md:max-w-none relative">
-            <div className="aspect-square rounded-full bg-gradient-to-tr from-blue-500/20 to-emerald-500/20 blur-3xl absolute inset-0 -z-10 animate-pulse"></div>
+            <div className="aspect-square rounded-full bg-linear-to-tr from-blue-500/20 to-emerald-500/20 blur-3xl absolute inset-0 -z-10 animate-pulse"></div>
             <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 md:p-6 shadow-2xl relative overflow-hidden">
               <div className="flex items-center gap-2 mb-4 border-b border-slate-200 dark:border-slate-800 pb-4">
                 <div className="w-3 h-3 rounded-full bg-red-500/20 border border-red-500/50"></div>
@@ -92,29 +93,30 @@ export default function HeroSection({ personalInfo, scrollTo }: HeroSectionProps
                 </div>
                 <div className="pl-4 flex gap-2 whitespace-nowrap">
                   <span className="text-slate-600 dark:text-slate-400">name:</span>
-                  <span className="text-green-400">"{personalInfo.name}"</span>,
+                  <span className="text-green-400">{`"${personalInfo.name}"`}</span>,
                 </div>
                 <div className="pl-4 flex gap-2 whitespace-nowrap">
                   <span className="text-slate-600 dark:text-slate-400">focus:</span>
-                  <span className="text-green-400">"Event-Driven Architecture"</span>,
+                  <span className="text-green-400">{'"Scalable systems, real impact"'}</span>,
                 </div>
                 <div className="pl-4 flex gap-2 whitespace-nowrap">
                   <span className="text-slate-600 dark:text-slate-400">stack:</span>
                   <span className="text-yellow-300">[</span>
-                  <span className="text-green-400">"TypeScript"</span>,
-                  <span className="text-green-400">"Kafka"</span>,
-                  <span className="text-green-400">"AWS"</span>
+                  <span className="text-green-400">{'"Python"'}</span>,
+                  <span className="text-green-400">{'"TypeScript"'}</span>,
+                  <span className="text-green-400">{'"Kafka"'}</span>,
+                  <span className="text-green-400">{'"AWS"'}</span>
                   <span className="text-yellow-300">]</span>,
                 </div>
                 <div className="pl-4 flex gap-2 whitespace-nowrap">
                   <span className="text-slate-600 dark:text-slate-400">location:</span>
-                  <span className="text-green-400">"{personalInfo.location}"</span>
+                  <span className="text-green-400">{`"${personalInfo.location}"`}</span>
                 </div>
                 <div className="flex gap-2 whitespace-nowrap">
                   <span className="text-yellow-300">{"}"}</span>;
                 </div>
                 <div className="pt-4 text-slate-600 dark:text-slate-500 whitespace-nowrap">
-                  // Ready to deploy scalable solutions...
+                  {'// Ready to deploy scalable solutions...'}
                 </div>
               </div>
             </div>

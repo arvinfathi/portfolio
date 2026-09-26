@@ -32,7 +32,7 @@ export default function ExperienceSection({ experiences }: ExperienceSectionProp
               <div className={`md:flex items-start justify-between gap-12 group ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
                 
                 {/* Timeline Dot */}
-                <div className="absolute left-0 md:left-1/2 w-4 h-4 rounded-full bg-white dark:bg-slate-800 border-2 border-blue-500 -translate-x-[5px] md:-translate-x-1/2 mt-1.5 z-10 group-hover:bg-blue-500 transition-colors"></div>
+                <div className="absolute left-0 md:left-1/2 w-4 h-4 rounded-full bg-white dark:bg-slate-800 border-2 border-blue-500 -translate-x-1.25 md:-translate-x-1/2 mt-1.5 z-10 group-hover:bg-blue-500 transition-colors"></div>
 
                 {/* Date (Desktop) */}
                 <div className={`hidden md:block w-1/2 py-1 ${index % 2 === 0 ? 'text-left' : 'text-right'}`}>

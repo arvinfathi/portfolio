@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { Code2, Terminal, Server, Cpu, Layers, Database, LucideIcon } from 'lucide-react';
+import { LucideIcon } from 'lucide-react';
 import SectionTitle from './ui/SectionTitle';
 import Card from './ui/Card';
 import Badge from './ui/Badge';
