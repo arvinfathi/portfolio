@@ -30,7 +30,7 @@ const PERSONAL_INFO = {
   email: "fathi.arvin@gmail.com",
   github: "https://github.com/arvinfathi",
   linkedin: "https://www.linkedin.com/in/arvinfathi/",
-  cvLink: "https://drive.google.com/file/d/1YSHft7papQbZ0voFB_olwEFIG9Gjwcye/view",
+  cvLink: "https://drive.google.com/file/d/17K4wDWR0N7YbJdynK59s0EImzHgU0d2O/view",
 };
 
 const EXPERIENCE = [
